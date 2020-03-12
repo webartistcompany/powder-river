@@ -1,0 +1,280 @@
+body {
+	margin-top: 10px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background:url(images/BACKGROUND_PR.jpg);
+	background-attachment:fixed;
+	
+}
+
+h1, h2, h3 {
+	color: #AA2808;
+}
+ul, ol, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+a {
+	text-decoration: underline;
+	color: #DE1C1D;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #DE1C1D;
+}
+#message_box {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:150px;
+}
+#message_box1 {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:210px;
+}
+
+#message_box2 {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:400px;
+}
+
+a#look img {opacity:1.0;filter:alpha(opacity=100);}
+a#look:hover img{opacity:0.8; filter:alpha(opacity=80);} 
+			
+div#menu {
+	top:0px;	  
+}
+
+#form {
+	margin-top: 0px;
+	width:200px;	
+}
+#form li {
+	background:url(images/Elements/menu_border.gif) repeat-x top;
+	padding-top:1px;
+}
+li#first {
+	background: none;
+}
+#form span {
+	color:#FFF;
+	font-size: 120%;
+	font-family:georgia, times new roman, times, serif;
+	display:block;
+	text-shadow: 0 0 0 #3E3A37;
+}
+#form li a {
+	display:block; 
+	text-decoration:none;
+	color:#b8b4a5;
+	padding: .7em 0 .7em 20px;
+	font-size: 85%;
+	font-family: 'trebuchet ms', Verdana,Arial,Helvetica,sans-serif;
+}
+#form li a:hover {
+	background:#272522;
+}
+#form2 {
+	padding-left: 400px;
+	width:300px;	
+	color:#fff;
+}
+#form2 li {
+	background:url('images/Elements/menu_border.gif'); repeat-x top;
+	padding-top:1px;
+}
+#first2 {
+	background: none;
+}
+#form2 span {
+	color:#FFF;
+	font-size: 120%;
+	font-family:georgia, times new roman, times, serif;
+	display:block;
+	text-shadow: 0 0 0 #3E3A37;
+}
+#form2 li a {
+	display:block; 
+	text-decoration:none;
+	color:#b8b4a5;
+	padding: .7em 0 .7em 20px;
+	font-size: 85%;
+	font-family: 'trebuchet ms', Verdana,Arial,Helvetica,sans-serif;
+}
+#form2 li a:hover {
+	background:#272522;
+}			
+
+/* Content */
+
+#content {
+	float: left;
+	width:450px;
+}
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top:10px;
+	padding: 0px 0px 0px 0;
+	color: #ececec;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#footer a {
+	text-decoration: underline;
+	color:#f1592a;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+.footera{
+font-size:16px; 
+color:#f1592a;
+}
+.navigation-menu{
+font-size:23px;
+color:#BBB;
+
+}
+.trailcamMenu {
+color:#fff;font-size:25px;text-decoration:none;
+}
+
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+float: left;
+margin: 0 1px 0 0;
+}
+
+#nav-menu li a
+{
+background: url(images/background-menu.jpg) #000 bottom left repeat-x;
+height: 33px;
+line-height: 33px;
+width: 117px;
+float: left;
+font-family: 'Fjalla One', sans-serif;
+display: block;
+border: 0em solid #dcdce9;
+color: #000;
+text-decoration: none;
+text-align: center;
+}
+#nav-menu li a:hover
+{
+color:#f1592a;
+background: url(images/background-menu-hover.jpg) #fff bottom left repeat-x;
+
+}
+#nav-menu li a.active
+{
+color:#f1592a;
+background: url(images/background-menu-hover.jpg) #000 bottom left repeat-x;
+
+}
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none;
+font-size: 20px;
+}
+/* End hide */
+
+#nav-menu
+{
+width:950px;
+padding-bottom:40px;
+}
+.customParagraph{
+color:#ececec;font-size:18px;padding-left:45px;padding-right:45px;
+}
+
+.FAQ_Question{
+color:#f4c4b6;
+font-size:24px;
+margin-bottom:10px;
+}
+
+.NormalText{
+color:#ececec;
+width:850px;
+font-size:18px;
+font-family:vernada;
+}
+
+.IndexText{
+color:#f1e7e4;
+width:850px;
+font-size:17px;
+font-family:Arial;
+}
+
+#slideshow {
+    position:relative;
+    height:350px;
+	padding-top:10px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:100;
+    left:-410px;
+    z-index:8;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+.PageHeader{
+color:#f18766;font-size:65px;padding-bottom:5px;padding-left:10px;padding-top:5px;
+}
+
+.WufooLabel{
+font-size:20px;
+color:#fff;
+width:500px;
+text-align:left;
+
+}
